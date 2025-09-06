@@ -107,6 +107,11 @@ aside {
     flex: 1;
 }
 
+img {
+    width: 150px;
+    height: 150px;
+}
+
 header {
     display: inline;
 }
@@ -131,3 +136,4 @@ header {
         align-self: stretch;
     }
 }
+
