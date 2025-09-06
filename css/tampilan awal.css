@@ -115,7 +115,7 @@ main .content .content-image {
 
 main .content .content-image img {
   max-width: 100%;
-  height: auto;   /* biar fleksibel di HP */
+  height: 300px;   /* biar fleksibel di HP */
   border-radius: 10px;
 }
 
@@ -196,3 +196,4 @@ main aside .social-media li a:hover {
     justify-content: center;
   }
 }
+
