@@ -29,11 +29,11 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
-
     color: black;
 }
 
 nav a:hover {
+    color: white;
     font-weight: bold;
 }
 
@@ -155,6 +155,7 @@ header {
         align-self: stretch;
     }
 }
+
 
 
 
