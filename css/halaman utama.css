@@ -108,8 +108,11 @@ aside {
 }
 
 img {
-    width: 150px;
-    height: 150px;
+    max-width: 100%;   /* gambar tidak boleh lebih lebar dari layar */
+    height: auto;      /* tinggi menyesuaikan proporsi */
+    display: block;    /* hilangkan jarak kosong bawaan inline */
+    margin: 0 auto;    /* biar center kalau lebih kecil */
+    border-radius: 5px;
 }
 
 header {
@@ -136,4 +139,5 @@ header {
         align-self: stretch;
     }
 }
+
 
