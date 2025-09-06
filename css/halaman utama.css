@@ -115,6 +115,22 @@ img {
     border-radius: 5px;
 }
 
+.btn-lanjut {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F564A9;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-lanjut:hover {
+    background-color: #d94f92; /* warna lebih gelap saat hover */
+    transform: scale(1.05);   /* efek sedikit membesar */
+}
+
 header {
     display: inline;
 }
@@ -139,5 +155,6 @@ header {
         align-self: stretch;
     }
 }
+
 
 
