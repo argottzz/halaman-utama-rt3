@@ -74,11 +74,10 @@ nav a:hover {
 }
 
 nav ul {
-    padding-inline: 4rem;
-    display: flex;
-
-    gap: 2rem;
-}
+      list-style-type: none; /* hilangkan bullet */
+      padding: 0;
+      text-align: center; /* isi list ke tengah */
+    }
 
 ul {
     padding-inline: 4rem;
@@ -87,8 +86,10 @@ ul {
 }
 
 nav li {
-    list-style-type: none;
-}
+      display: inline-block; /* biar berjejer */
+      margin: 0 10px;
+    }
+
 
 nav {
     background-color: #FFD93D;
@@ -139,3 +140,4 @@ header {
         align-self: stretch;
     }
 }
+
